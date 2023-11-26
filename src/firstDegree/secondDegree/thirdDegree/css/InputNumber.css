@@ -1,0 +1,30 @@
+.numberButton{
+    position: absolute;
+    right: 0;
+    top: 45%;
+    transform: translateY(-60%);
+    height: 100%;
+    width: 20px;
+}
+#up, #down{
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    font-size: inherit;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    width: 100%;
+    height: 50%;
+}
+#down{
+    transform: rotateZ(180deg);
+}
+button>img{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,15 @@
+body {
+    overflow-x: hidden;
+  }
+  
+select {
+    background-color: #FFFFFF;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: min-content;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #555555;
+    border: 1px solid #555555;
+}

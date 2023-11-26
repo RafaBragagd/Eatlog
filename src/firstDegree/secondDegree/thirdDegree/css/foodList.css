@@ -1,0 +1,56 @@
+.foodList{
+    display: flex;
+    flex: 0 0 100%;
+    background-color: #00CED1;
+    padding: 3px;
+    border-radius: 5px;
+    margin: 5px 0;
+    color: #FFFFFF;
+}
+
+
+.foodList img{
+    width: 30px;
+    height: 30px;
+    padding-right: 3px;
+    margin-right: 3px;
+    border-radius: 5px 0 0 5px;
+    border-right: 1px solid #483D8B;
+    ;
+}
+.foodList .info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 3px;
+    border-right: 1px solid #483D8B;
+}
+.foodList h5{
+    font-size: .8em;
+    font-weight: normal;
+    margin: 0;
+    margin-left: 3px;
+}
+.foodList p{
+    font-size: .7em;
+    margin: 0;
+    color: #555555;
+
+}
+.foodList button{
+    position: relative;
+    width: 35px;
+    height: 30px;
+    padding: 1px;
+    background: transparent;
+    border-radius: 0 5px 5px 0;
+    border: none;
+}
+.foodList svg{
+    position: absolute;
+    top: -9%;
+    left: -10%;
+    width: 115%;
+    height: 115%;
+}
